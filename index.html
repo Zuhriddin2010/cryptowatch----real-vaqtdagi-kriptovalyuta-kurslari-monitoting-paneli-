@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoWatch | Live Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <header class="dash-header">
+            <div class="logo-area">
+                <span class="pulse-dot"></span>
+                <h1>CryptoWatch</h1>
+            </div>
+            <p>Real vaqtdagi global kriptovalyuta narxlari</p>
+        </header>
+
+        <div class="controls-row">
+            <input type="text" id="search-crypto" placeholder="Kriptovalyuta nomini yozing... (masalan: Bitcoin)">
+            <button id="refresh-btn" class="btn-refresh">🔄 Yangilash</button>
+        </div>
+
+        <main id="crypto-grid" class="crypto-grid">
+            <div class="loading-text">Ma'lumotlar yuklanmoqda...</div>
+        </main>
+
+        <footer>
+            <p>Ma'lumotlar ochiq CoinGecko API orqali taqdim etilmoqda.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
